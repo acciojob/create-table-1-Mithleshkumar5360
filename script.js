@@ -7,6 +7,6 @@ function insert_Row() {
 	var leftCell = newRow.insertCell(0);
 	var rightCell= newRow.insertCell(1);
 
-	leftCell.innerHtml = "New Cell1";
-	rightCell.innerHtml = "New Cell2";
+	leftCell.innerHTML = "New Cell1";
+	rightCell.innerHTML = "New Cell2";
 }
